@@ -22,9 +22,11 @@ class Atm:
                          self.withdraw()
                     elif user_input=="4":
                          self.check_balance()
-                    else:
+                    elif(user_input=="5"):
                          print("Thank You and have a nice day")
                          break
+                    else:
+                         print("Invalid input")
 
     def Create_PIN(self):
         self.pin=int(input("Enter the PIN: "))
